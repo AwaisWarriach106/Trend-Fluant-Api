@@ -1,0 +1,24 @@
+[
+  {
+    "ContainingType": "TrendFlaunt_Api.Actions.AuthenticationAction",
+    "Method": "Login",
+    "RelativePath": "api/v1/authentication/login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUser",
+        "Type": "TrendFlaunt.Domain.ResponseModel.LoginUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEDD77D-0C0A-4F31-B7AF-015087D35451}|TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt.domain\\authentication\\tokenfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEDD77D-0C0A-4F31-B7AF-015087D35451}|TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj|solutionrelative:trendflaunt.domain\\authentication\\tokenfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEDD77D-0C0A-4F31-B7AF-015087D35451}|TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt.domain\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEDD77D-0C0A-4F31-B7AF-015087D35451}|TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj|solutionrelative:trendflaunt.domain\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt-api\\startupextensions\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|solutionrelative:trendflaunt-api\\startupextensions\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|solutionrelative:trendflaunt-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC77DB3-7B10-4FF7-ABE2-837A4E9D8079}|TrendFlaunt.Data\\TrendFlaunt.Data.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt.data\\settings\\jwttokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC77DB3-7B10-4FF7-ABE2-837A4E9D8079}|TrendFlaunt.Data\\TrendFlaunt.Data.csproj|solutionrelative:trendflaunt.data\\settings\\jwttokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt-api\\actions\\authenticationaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|solutionrelative:trendflaunt-api\\actions\\authenticationaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEDD77D-0C0A-4F31-B7AF-015087D35451}|TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt.domain\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEDD77D-0C0A-4F31-B7AF-015087D35451}|TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj|solutionrelative:trendflaunt.domain\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|solutionrelative:trendflaunt-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt-api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|solutionrelative:trendflaunt-api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt-api\\endpoints\\authenticationendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|solutionrelative:trendflaunt-api\\endpoints\\authenticationendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt-api\\common\\routes\\authenticationroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|solutionrelative:trendflaunt-api\\common\\routes\\authenticationroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt-api\\common\\apipattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|solutionrelative:trendflaunt-api\\common\\apipattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt-api\\startupextensions\\problemdetailextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|solutionrelative:trendflaunt-api\\startupextensions\\problemdetailextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEDD77D-0C0A-4F31-B7AF-015087D35451}|TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt.domain\\common\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEDD77D-0C0A-4F31-B7AF-015087D35451}|TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj|solutionrelative:trendflaunt.domain\\common\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC77DB3-7B10-4FF7-ABE2-837A4E9D8079}|TrendFlaunt.Data\\TrendFlaunt.Data.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt.data\\client\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC77DB3-7B10-4FF7-ABE2-837A4E9D8079}|TrendFlaunt.Data\\TrendFlaunt.Data.csproj|solutionrelative:trendflaunt.data\\client\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC77DB3-7B10-4FF7-ABE2-837A4E9D8079}|TrendFlaunt.Data\\TrendFlaunt.Data.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt.data\\settings\\postgresconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC77DB3-7B10-4FF7-ABE2-837A4E9D8079}|TrendFlaunt.Data\\TrendFlaunt.Data.csproj|solutionrelative:trendflaunt.data\\settings\\postgresconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC77DB3-7B10-4FF7-ABE2-837A4E9D8079}|TrendFlaunt.Data\\TrendFlaunt.Data.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt.data\\client\\dbclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC77DB3-7B10-4FF7-ABE2-837A4E9D8079}|TrendFlaunt.Data\\TrendFlaunt.Data.csproj|solutionrelative:trendflaunt.data\\client\\dbclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC77DB3-7B10-4FF7-ABE2-837A4E9D8079}|TrendFlaunt.Data\\TrendFlaunt.Data.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt.data\\interfaces\\idbclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC77DB3-7B10-4FF7-ABE2-837A4E9D8079}|TrendFlaunt.Data\\TrendFlaunt.Data.csproj|solutionrelative:trendflaunt.data\\interfaces\\idbclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|c:\\users\\hp\\documents\\github\\trendflaunt\\trendflaunt-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B10B5B5E-4595-4AFA-900D-1D0269650A8A}|TrendFlaunt-Api\\TrendFlaunt-Api.csproj|solutionrelative:trendflaunt-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenFactory.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Domain\\Authentication\\TokenFactory.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt.Domain\\Authentication\\TokenFactory.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Domain\\Authentication\\TokenFactory.cs",
+              "RelativeToolTip": "TrendFlaunt.Domain\\Authentication\\TokenFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T15:47:18.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Program.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt-Api\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Program.cs",
+              "RelativeToolTip": "TrendFlaunt-Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T13:49:40.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProblemDetailExtension.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\StartupExtensions\\ProblemDetailExtension.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt-Api\\StartupExtensions\\ProblemDetailExtension.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\StartupExtensions\\ProblemDetailExtension.cs",
+              "RelativeToolTip": "TrendFlaunt-Api\\StartupExtensions\\ProblemDetailExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:40:05.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthenticationEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Endpoints\\AuthenticationEndpoint.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt-Api\\Endpoints\\AuthenticationEndpoint.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Endpoints\\AuthenticationEndpoint.cs",
+              "RelativeToolTip": "TrendFlaunt-Api\\Endpoints\\AuthenticationEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:43:10.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiPattern.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Common\\ApiPattern.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt-Api\\Common\\ApiPattern.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Common\\ApiPattern.cs",
+              "RelativeToolTip": "TrendFlaunt-Api\\Common\\ApiPattern.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:48:18.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Startup.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt-Api\\Startup.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Startup.cs",
+              "RelativeToolTip": "TrendFlaunt-Api\\Startup.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAxwBIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T13:53:48.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TrendFlaunt-Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\appsettings.Development.json",
+              "RelativeToolTip": "TrendFlaunt-Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T14:18:14.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Extension.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\StartupExtensions\\Extension.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt-Api\\StartupExtensions\\Extension.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\StartupExtensions\\Extension.cs",
+              "RelativeToolTip": "TrendFlaunt-Api\\StartupExtensions\\Extension.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBUAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:11:49.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Domain\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt.Domain\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Domain\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "TrendFlaunt.Domain\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwDMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T13:56:39.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthenticationAction.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Actions\\AuthenticationAction.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt-Api\\Actions\\AuthenticationAction.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Actions\\AuthenticationAction.cs",
+              "RelativeToolTip": "TrendFlaunt-Api\\Actions\\AuthenticationAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:35:34.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Domain\\Interfaces\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt.Domain\\Interfaces\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Domain\\Interfaces\\IAuthenticationService.cs",
+              "RelativeToolTip": "TrendFlaunt.Domain\\Interfaces\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:36:00.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtTokenConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Data\\Settings\\JwtTokenConfiguration.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt.Data\\Settings\\JwtTokenConfiguration.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Data\\Settings\\JwtTokenConfiguration.cs",
+              "RelativeToolTip": "TrendFlaunt.Data\\Settings\\JwtTokenConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T13:48:07.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServiceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Domain\\Common\\ServiceResponse.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt.Domain\\Common\\ServiceResponse.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Domain\\Common\\ServiceResponse.cs",
+              "RelativeToolTip": "TrendFlaunt.Domain\\Common\\ServiceResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:01:16.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthenticationRoutes.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Common\\Routes\\AuthenticationRoutes.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt-Api\\Common\\Routes\\AuthenticationRoutes.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\Common\\Routes\\AuthenticationRoutes.cs",
+              "RelativeToolTip": "TrendFlaunt-Api\\Common\\Routes\\AuthenticationRoutes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:49:21.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Data\\Client\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt.Data\\Client\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Data\\Client\\AppDbContext.cs",
+              "RelativeToolTip": "TrendFlaunt.Data\\Client\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:20:30.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PostgresConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Data\\Settings\\PostgresConfiguration.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt.Data\\Settings\\PostgresConfiguration.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Data\\Settings\\PostgresConfiguration.cs",
+              "RelativeToolTip": "TrendFlaunt.Data\\Settings\\PostgresConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:39:55.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DbClient.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Data\\Client\\DbClient.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt.Data\\Client\\DbClient.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Data\\Client\\DbClient.cs",
+              "RelativeToolTip": "TrendFlaunt.Data\\Client\\DbClient.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:20:44.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IDbClient.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Data\\Interfaces\\IDbClient.cs",
+              "RelativeDocumentMoniker": "TrendFlaunt.Data\\Interfaces\\IDbClient.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt.Data\\Interfaces\\IDbClient.cs",
+              "RelativeToolTip": "TrendFlaunt.Data\\Interfaces\\IDbClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:30:57.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\appsettings.json",
+              "RelativeDocumentMoniker": "TrendFlaunt-Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TrendFlaunt\\TrendFlaunt-Api\\appsettings.json",
+              "RelativeToolTip": "TrendFlaunt-Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T14:18:10.197Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

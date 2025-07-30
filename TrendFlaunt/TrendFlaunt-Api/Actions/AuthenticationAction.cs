@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TrendFlaunt.Data.Models.RequestModel;
 using TrendFlaunt.Domain.Interfaces;
 using TrendFlaunt.Domain.ResponseModel;
 using TrendFlaunt_Api.StartupExtensions;
@@ -11,6 +12,12 @@ public class AuthenticationAction
    [FromServices] IAuthenticationService authenticationService)
     {
         var serviceResponse = await authenticationService.Login(loginUser);
+        return serviceResponse.Success ? Results.Ok(serviceResponse) : serviceResponse.ToProblemDetails();
+    }
+    public static async Task<IResult> RegisterUser(RegisterUserRequest request,
+ [FromServices] IAuthenticationService authenticationService)
+    {
+        var serviceResponse = await authenticationService.RegisterUser(request);
         return serviceResponse.Success ? Results.Ok(serviceResponse) : serviceResponse.ToProblemDetails();
     }
 }

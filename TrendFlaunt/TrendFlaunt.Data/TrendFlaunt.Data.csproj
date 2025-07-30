@@ -13,11 +13,4 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\Dto\" />
-    <Folder Include="Models\RequestModel\" />
-    <Folder Include="Repository\" />
-    <Folder Include="Queries\" />
-  </ItemGroup>
-
 </Project>

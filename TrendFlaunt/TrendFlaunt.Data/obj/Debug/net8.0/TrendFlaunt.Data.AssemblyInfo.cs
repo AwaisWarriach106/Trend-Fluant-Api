@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrendFlaunt.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee9c7c36e2312dd858f30ed0ece3489352e48280")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2744eadaf3fac14b001b678a76bca16a3b1c3172")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrendFlaunt.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrendFlaunt.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

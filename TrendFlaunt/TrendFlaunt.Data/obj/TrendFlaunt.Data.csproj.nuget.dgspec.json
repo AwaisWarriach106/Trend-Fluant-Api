@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj": {}
+    "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj": {
+    "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj",
+        "projectUniqueName": "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj",
         "projectName": "TrendFlaunt.Data",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\obj\\",
+        "projectPath": "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj",
+        "packagesPath": "C:\\Users\\SB\\.nuget\\packages\\",
+        "outputPath": "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SB\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

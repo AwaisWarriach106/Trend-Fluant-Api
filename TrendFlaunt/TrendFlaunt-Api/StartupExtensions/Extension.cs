@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using TrendFlaunt.Data.Client;
 using TrendFlaunt.Data.Interfaces;
+using TrendFlaunt.Data.Repository;
 using TrendFlaunt.Data.Settings;
 using TrendFlaunt.Domain.Authentication;
 using TrendFlaunt.Domain.Interfaces;
@@ -24,7 +25,9 @@ public static class Extension
         services.AddHttpContextAccessor()
             .AddTransient<IDbClient, DbClient>()
             .AddTransient<IAuthenticationService, AuthenticationService>()
+            .AddTransient<IAuthenticationRepository, AuthenticationRepository>()
             .AddTransient<ITokenFactory, TokenFactory>()
+            .AddAuthenticationConfiguration(configuration)
             .AddSwaggerConfiguration();
         return services;
     }

@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json.Linq;
+using TrendFlaunt.Data.Interfaces;
+using TrendFlaunt.Data.Models.RequestModel;
 using TrendFlaunt.Domain.Authentication;
 using TrendFlaunt.Domain.Common;
 using TrendFlaunt.Domain.Interfaces;
@@ -12,11 +15,43 @@ public class AuthenticationService : IAuthenticationService
     private readonly UserManager<IdentityUser> _userManager;
     private readonly ITokenFactory _tokenFactory;
     private readonly IConfiguration _configuration;
-    public AuthenticationService(IConfiguration configuration, UserManager<IdentityUser> userManager, ITokenFactory tokenFactory)
+    private readonly IAuthenticationRepository _authenticationRepository;
+    public AuthenticationService(IConfiguration configuration, UserManager<IdentityUser> userManager, ITokenFactory tokenFactory, IAuthenticationRepository authenticationRepository)
     {
         _userManager = userManager;
         _tokenFactory = tokenFactory;
         _configuration = configuration;
+        _authenticationRepository = authenticationRepository;
+    }
+    public async Task<ServiceResponse<Guid>> RegisterUser (RegisterUserRequest request, CancellationToken ct)
+    {
+        try
+        {
+            var user = new IdentityUser
+            {
+                Email = request.Email,
+                UserName = request.Email,
+                PhoneNumber = request.PhoneNumber,
+                EmailConfirmed = false,
+                PhoneNumberConfirmed = false
+            };
+            var result = await _userManager.CreateAsync(user, request.Password);
+            if (!result.Succeeded)
+            {
+                return ServiceResponse<Guid>.FailureResponse("Failed to register user.", ErrorCode.Error);
+            }
+            request.UserId = user.Id;
+            var userProfileId = await _authenticationRepository.RegisterUserProfile(request, ct);
+            if (userProfileId == Guid.Empty)
+            {
+                return ServiceResponse<Guid>.FailureResponse("Failed to register user.", ErrorCode.Error);
+            }
+            return ServiceResponse<Guid>.SuccessResponse(userProfileId);
+        }
+        catch (Exception ex)
+        {
+            return ServiceResponse<Guid>.FailureResponse("Failed to register user.", ErrorCode.Error);
+        }
     }
     public async Task<ServiceResponse<UserSession>> Login(LoginUserModel loginModel)
     {

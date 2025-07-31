@@ -26,6 +26,7 @@ public class Startup
             x.DisplayRequestDuration();
         });
         application.UseStaticFiles();
+        application.UseAuthorization();
         application.UseHttpsRedirection();
         application.MapCarter();
         application.UseCors(builder => builder

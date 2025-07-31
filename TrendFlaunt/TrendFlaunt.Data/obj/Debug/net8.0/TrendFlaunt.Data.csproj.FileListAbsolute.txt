@@ -10,3 +10,16 @@ C:\Users\HP\Documents\GitHub\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\Trend
 C:\Users\HP\Documents\GitHub\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\refint\TrendFlaunt.Data.dll
 C:\Users\HP\Documents\GitHub\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\TrendFlaunt.Data.pdb
 C:\Users\HP\Documents\GitHub\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\ref\TrendFlaunt.Data.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\bin\Debug\net8.0\TrendFlaunt.Data.deps.json
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\bin\Debug\net8.0\TrendFlaunt.Data.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\bin\Debug\net8.0\TrendFlaunt.Data.pdb
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\TrendFlaunt.Data.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\TrendFlaunt.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\TrendFlaunt.Data.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\TrendFlaunt.Data.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\TrendFlaunt.Data.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\TrendFlaunt.Data.sourcelink.json
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\TrendFlaunt.Data.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\refint\TrendFlaunt.Data.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\TrendFlaunt.Data.pdb
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt.Data\obj\Debug\net8.0\ref\TrendFlaunt.Data.dll

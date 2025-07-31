@@ -23,6 +23,28 @@
   },
   {
     "ContainingType": "TrendFlaunt_Api.Actions.AuthenticationAction",
+    "Method": "LoginWithGoogle",
+    "RelativePath": "api/v1/authentication/login-with-google",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUser",
+        "Type": "TrendFlaunt.Data.Models.RequestModel.GoogleLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TrendFlaunt_Api.Actions.AuthenticationAction",
     "Method": "RegisterUser",
     "RelativePath": "api/v1/authentication/register-user",
     "HttpMethod": "POST",

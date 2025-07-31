@@ -9,6 +9,7 @@
       "TrendFlaunt.Domain/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "Google.Apis.Auth": "1.70.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
           "Newtonsoft.Json": "13.0.3",
@@ -35,6 +36,41 @@
           "lib/net8.0/Dapper.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.1.66.48463"
+          }
+        }
+      },
+      "Google.Apis/1.70.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.70.0"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.dll": {
+            "assemblyVersion": "1.70.0.0",
+            "fileVersion": "1.70.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.70.0": {
+        "dependencies": {
+          "Google.Apis": "1.70.0",
+          "Google.Apis.Core": "1.70.0",
+          "System.Management": "7.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.70.0.0",
+            "fileVersion": "1.70.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.70.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.70.0.0",
+            "fileVersion": "1.70.0.0"
           }
         }
       },
@@ -321,6 +357,14 @@
           }
         }
       },
+      "System.CodeDom/7.0.0": {
+        "runtime": {
+          "lib/net7.0/System.CodeDom.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/8.12.1": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "8.12.1",
@@ -330,6 +374,25 @@
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "assemblyVersion": "8.12.1.0",
             "fileVersion": "8.12.1.60617"
+          }
+        }
+      },
+      "System.Management/7.0.2": {
+        "dependencies": {
+          "System.CodeDom": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Management.dll": {
+            "assemblyVersion": "7.0.0.2",
+            "fileVersion": "7.0.723.27404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.2",
+            "fileVersion": "7.0.723.27404"
           }
         }
       },
@@ -368,6 +431,27 @@
       "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
       "path": "dapper/2.1.66",
       "hashPath": "dapper.2.1.66.nupkg.sha512"
+    },
+    "Google.Apis/1.70.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K6VKPkHRN1P7pMb84eZu1rFyoie7LIYYsjTPvTnEH2lbscU1sBLR1C1MtsCoSJzgDIjr0yVGmSKnIC4D73ro1g==",
+      "path": "google.apis/1.70.0",
+      "hashPath": "google.apis.1.70.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.70.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2gnpcYUaD5WS2/2922J+ji1tEKcNtxu+aQoiNVWhfcGwDqgcc5vk6ND6591M2UaGzJn0EdH325rsNHzi/MvA/A==",
+      "path": "google.apis.auth/1.70.0",
+      "hashPath": "google.apis.auth.1.70.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.70.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R7Mbea2iB/TN+3BA1LPCqb1eT2HxnILJ+ASl5pdhHHc8uSe95JTTnM2DEVbVBQ3vo9/FpbBxWBRjP1ed9QK9CQ==",
+      "path": "google.apis.core/1.70.0",
+      "hashPath": "google.apis.core.1.70.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.10": {
       "type": "package",
@@ -565,12 +649,26 @@
       "path": "npgsql.entityframeworkcore.postgresql/8.0.11",
       "hashPath": "npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512"
     },
+    "System.CodeDom/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GLltyqEsE5/3IE+zYRP5sNa1l44qKl9v+bfdMcwg+M9qnQf47wK3H0SUR/T+3N4JEQXF3vV4CSuuo0rsg+nq2A==",
+      "path": "system.codedom/7.0.0",
+      "hashPath": "system.codedom.7.0.0.nupkg.sha512"
+    },
     "System.IdentityModel.Tokens.Jwt/8.12.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-jlYdVOJrdeyD80ppEqKJ8BhJdrV3MjeA+seURdhC0DnD41GyUA9Ik+P7Sb571ufVVCYIx93GjeqVvY3QyQxZAA==",
       "path": "system.identitymodel.tokens.jwt/8.12.1",
       "hashPath": "system.identitymodel.tokens.jwt.8.12.1.nupkg.sha512"
+    },
+    "System.Management/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/qEUN91mP/MUQmJnM5y5BdT7ZoPuVrtxnFlbJ8a3kBJGhe2wCzBfnPFtK2wTtEEcf3DMGR9J00GZZfg6HRI6yA==",
+      "path": "system.management/7.0.2",
+      "hashPath": "system.management.7.0.2.nupkg.sha512"
     },
     "TrendFlaunt.Data/1.0.0": {
       "type": "project",

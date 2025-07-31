@@ -13,5 +13,6 @@ public class AuthenticationEndpoint : ICarterModule
 
         groupAuthentication.MapPost(AuthenticationRoutes.Login, AuthenticationAction.Login).AllowAnonymous();
         groupAuthentication.MapPost(AuthenticationRoutes.RegisterUser, AuthenticationAction.RegisterUser).AllowAnonymous();
+        groupAuthentication.MapPost(AuthenticationRoutes.LoginWithGoogle, AuthenticationAction.LoginWithGoogle).AllowAnonymous();
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Google.Apis.Auth;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json.Linq;
 using TrendFlaunt.Data.Interfaces;
@@ -90,6 +91,57 @@ public class AuthenticationService : IAuthenticationService
         catch (Exception ex)
         {
             return ServiceResponse<UserSession>.FailureResponse("Error occured while login!", ErrorCode.Error);
+        }
+    }
+    public async Task<ServiceResponse<UserSession>> LoginWithGoogle(GoogleLoginRequest request)
+    {
+        try
+        {
+            var settings = new GoogleJsonWebSignature.ValidationSettings()
+            {
+                Audience = new List<string> { _configuration["GoogleAuth:ClientId"] }
+            };
+            var payload = await GoogleJsonWebSignature.ValidateAsync(request.IdToken, settings);
+            var email = payload.Email;
+            var fullName = payload.Name;
+
+            var user = await _userManager.FindByEmailAsync(email);
+
+            if (user == null)
+            {
+                user = new IdentityUser
+                {
+                    Email = email,
+                    UserName = email,
+                    EmailConfirmed = true
+                };
+                var result = await _userManager.CreateAsync(user);
+                if (!result.Succeeded)
+                {
+                    return ServiceResponse<UserSession>.FailureResponse("Failed to register user with Google.", ErrorCode.Error);
+                }
+                await _authenticationRepository.RegisterUserProfile(new RegisterUserRequest
+                {
+                    UserId = user.Id,
+                    FullName = fullName
+                }, CancellationToken.None);
+            }
+
+            var roles = await _userManager.GetRolesAsync(user);
+            if (roles == null || !roles.Any())
+            {
+                await _userManager.AddToRoleAsync(user, "User");
+                roles = new List<string> { "User" };
+            }
+
+            var role = string.Join(", ", roles);
+            var token = _tokenFactory.Generate(user.Id, user.Email, role);
+
+            return ServiceResponse<UserSession>.SuccessResponse(token);
+        }
+        catch (Exception ex)
+        {
+            return ServiceResponse<UserSession>.FailureResponse("Google authentication failed.", ErrorCode.Error);
         }
     }
 }

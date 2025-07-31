@@ -20,4 +20,10 @@ public class AuthenticationAction
         var serviceResponse = await authenticationService.RegisterUser(request);
         return serviceResponse.Success ? Results.Ok(serviceResponse) : serviceResponse.ToProblemDetails();
     }
+    public static async Task<IResult> LoginWithGoogle(GoogleLoginRequest loginUser,
+  [FromServices] IAuthenticationService authenticationService)
+    {
+        var serviceResponse = await authenticationService.LoginWithGoogle(loginUser);
+        return serviceResponse.Success ? Results.Ok(serviceResponse) : serviceResponse.ToProblemDetails();
+    }
 }

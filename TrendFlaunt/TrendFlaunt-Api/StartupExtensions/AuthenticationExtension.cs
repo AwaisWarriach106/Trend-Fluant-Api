@@ -2,7 +2,6 @@
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using System.Security.Claims;
-using System.Security.Cryptography;
 using TrendFlaunt.Data.Settings;
 using TrendFlaunt.Domain.Authentication;
 
@@ -25,6 +24,11 @@ public static class AuthenticationExtension
         {
             config = GetBearerOptions(config, configuration.GetValue<string>("JwtTokenSettings:TokenSecret"));
 
+        })
+        .AddGoogle("Google", googleOptions =>
+        {
+            googleOptions.ClientId = configuration["GoogleAuth:ClientId"];
+            googleOptions.ClientSecret = configuration["GoogleAuth:ClientSecret"];
         });
         return services;
     }

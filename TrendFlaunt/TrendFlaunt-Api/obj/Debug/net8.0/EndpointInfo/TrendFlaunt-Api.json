@@ -113,10 +113,6 @@
             "type": "string",
             "nullable": true
           },
-          "userType": {
-            "type": "string",
-            "nullable": true
-          },
           "gender": {
             "type": "string",
             "nullable": true
@@ -131,6 +127,10 @@
           },
           "phoneNumberVerified": {
             "type": "boolean",
+            "nullable": true
+          },
+          "userRole": {
+            "type": "string",
             "nullable": true
           },
           "password": {

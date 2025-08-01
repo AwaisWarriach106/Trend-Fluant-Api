@@ -4353,23 +4353,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SB\\.nuget\\packages\\": {},
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt-Api\\TrendFlaunt-Api.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt-Api\\TrendFlaunt-Api.csproj",
       "projectName": "TrendFlaunt-Api",
-      "projectPath": "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt-Api\\TrendFlaunt-Api.csproj",
-      "packagesPath": "C:\\Users\\SB\\.nuget\\packages\\",
-      "outputPath": "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt-Api\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt-Api\\TrendFlaunt-Api.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt-Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4385,11 +4385,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj": {
-              "projectPath": "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj"
+            "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj": {
+              "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Data\\TrendFlaunt.Data.csproj"
             },
-            "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj": {
-              "projectPath": "I:\\Flutter\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj"
+            "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj": {
+              "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Trend-Fluant-Api\\TrendFlaunt\\TrendFlaunt.Domain\\TrendFlaunt.Domain.csproj"
             }
           }
         }
@@ -4404,7 +4404,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -4460,7 +4460,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,10 +13,6 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-/TrendFlaunt/.vs/*
-
-**/.vs/
-
 # Mono auto generated files
 mono_crash.*
 
@@ -35,7 +31,6 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-*.dll
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -398,4 +393,3 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
-

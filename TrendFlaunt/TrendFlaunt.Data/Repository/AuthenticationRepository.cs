@@ -21,7 +21,6 @@ public class AuthenticationRepository : IAuthenticationRepository
             {
                 UserId = request.UserId,
                 FullName = request.FullName,
-                UserType = request.UserType.ToString(),
                 Gender = request.Gender,
                 PhoneNumber = request.PhoneNumber,
             },

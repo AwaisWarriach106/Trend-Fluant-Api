@@ -168,7 +168,11 @@ C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\De
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Carter.Analyzers.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Dapper.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Google.Apis.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Google.Apis.Auth.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Google.Apis.Core.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Humanizer.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -221,6 +225,7 @@ C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\De
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\System.Management.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
@@ -288,6 +293,7 @@ C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\De
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\TrendFlaunt.Data.dll
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\TrendFlaunt.Domain.dll
@@ -313,9 +319,3 @@ C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\obj\De
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\obj\Debug\net8.0\TrendFlaunt-Api.pdb
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\obj\Debug\net8.0\TrendFlaunt-Api.genruntimeconfig.cache
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\obj\Debug\net8.0\ref\TrendFlaunt-Api.dll
-C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Google.Apis.dll
-C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Google.Apis.Auth.dll
-C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Google.Apis.Core.dll
-C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
-C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\System.Management.dll
-C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll

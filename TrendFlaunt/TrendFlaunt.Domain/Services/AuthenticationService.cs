@@ -41,6 +41,8 @@ public class AuthenticationService : IAuthenticationService
             {
                 return ServiceResponse<Guid>.FailureResponse("Failed to register user.", ErrorCode.Error);
             }
+            var assignRole = await _userManager.AddToRoleAsync(user, request.UserRole);
+
             request.UserId = user.Id;
             var userProfileId = await _authenticationRepository.RegisterUserProfile(request, ct);
             if (userProfileId == Guid.Empty)

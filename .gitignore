@@ -13,10 +13,6 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-/TrendFlaunt/.vs/*
-
-**/.vs/
-
 # Mono auto generated files
 mono_crash.*
 
@@ -397,4 +393,3 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
-

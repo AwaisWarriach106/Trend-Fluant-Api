@@ -394,3 +394,11 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+*.db
+*.db
+*.cs
+*.cache
+*.editorconfig
+*.props
+*.cache
+*.json

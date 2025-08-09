@@ -319,3 +319,8 @@ C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\obj\De
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\obj\Debug\net8.0\TrendFlaunt-Api.pdb
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\obj\Debug\net8.0\TrendFlaunt-Api.genruntimeconfig.cache
 C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\obj\Debug\net8.0\ref\TrendFlaunt-Api.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\TrendFlaunt-Api.staticwebassets.runtime.json
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\MailKit.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\MimeKit.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\NETCore.MailKit.dll
+C:\Users\HP\Documents\GitHub\Trend-Fluant-Api\TrendFlaunt\TrendFlaunt-Api\bin\Debug\net8.0\BouncyCastle.Crypto.dll

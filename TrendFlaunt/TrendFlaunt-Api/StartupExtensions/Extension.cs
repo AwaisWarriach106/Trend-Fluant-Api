@@ -17,6 +17,8 @@ public static class Extension
         services.AddDbContext<AppDbContext>(options =>
         options.UseNpgsql(configuration["PostgresServer:ConnectionString"]))
             .Configure<PostgresConfiguration>(configuration.GetSection("PostgresServer"));
+        var emailConfig = configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>();
+        services.AddSingleton(emailConfig);
         services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
         services
         .AddTransient<ITokenFactory, TokenFactory>()
@@ -27,6 +29,7 @@ public static class Extension
             .AddTransient<IAuthenticationService, AuthenticationService>()
             .AddTransient<IAuthenticationRepository, AuthenticationRepository>()
             .AddTransient<ITokenFactory, TokenFactory>()
+            .AddTransient<IEmailService, EmailService>()
             .AddAuthenticationConfiguration(configuration)
             .AddSwaggerConfiguration();
         return services;

@@ -9,4 +9,5 @@ public class UserProfileDto
     public string? Address { get; set; }
     public string? ProfileImageUrl { get; set; }
     public string? Gender { get; set; }
+    public string? Email { get; set; }
 }

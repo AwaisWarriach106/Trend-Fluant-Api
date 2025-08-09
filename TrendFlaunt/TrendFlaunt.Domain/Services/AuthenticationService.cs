@@ -1,7 +1,7 @@
 ﻿using Google.Apis.Auth;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json.Linq;
+using Org.BouncyCastle.Asn1.Ocsp;
 using TrendFlaunt.Data.Interfaces;
 using TrendFlaunt.Data.Models.RequestModel;
 using TrendFlaunt.Domain.Authentication;
@@ -17,12 +17,14 @@ public class AuthenticationService : IAuthenticationService
     private readonly ITokenFactory _tokenFactory;
     private readonly IConfiguration _configuration;
     private readonly IAuthenticationRepository _authenticationRepository;
-    public AuthenticationService(IConfiguration configuration, UserManager<IdentityUser> userManager, ITokenFactory tokenFactory, IAuthenticationRepository authenticationRepository)
+    private readonly IEmailService _emailService;
+    public AuthenticationService(IEmailService emailService, IConfiguration configuration, UserManager<IdentityUser> userManager, ITokenFactory tokenFactory, IAuthenticationRepository authenticationRepository)
     {
         _userManager = userManager;
         _tokenFactory = tokenFactory;
         _configuration = configuration;
         _authenticationRepository = authenticationRepository;
+        _emailService = emailService;
     }
     public async Task<ServiceResponse<Guid>> RegisterUser (RegisterUserRequest request, CancellationToken ct)
     {
@@ -49,6 +51,9 @@ public class AuthenticationService : IAuthenticationService
             {
                 return ServiceResponse<Guid>.FailureResponse("Failed to register user.", ErrorCode.Error);
             }
+            var sendCodeResponse = await SendTwoFactorAuthenticationCode(request.FullName, request.Email, CancellationToken.None);
+            if(!sendCodeResponse.Success)
+                    return ServiceResponse<Guid>.FailureResponse("Failed to send two-factor authentication code.", ErrorCode.Error);
             return ServiceResponse<Guid>.SuccessResponse(userProfileId);
         }
         catch (Exception ex)
@@ -81,14 +86,22 @@ public class AuthenticationService : IAuthenticationService
             }
             var resetLockoutCount = await _userManager.ResetAccessFailedCountAsync(user);
             var twoFactorEnabled = await _userManager.GetTwoFactorEnabledAsync(user);
+            if (twoFactorEnabled == true)
+            {
+                var sendCodeResponse = await SendTwoFactorAuthenticationCode(null, loginModel.Email, CancellationToken.None);
+                if (!sendCodeResponse.Success)
+                    return ServiceResponse<UserSession>.FailureResponse("Failed to send two-factor authentication code.", ErrorCode.Error);
+                return ServiceResponse<UserSession>.SuccessResponse(new UserSession { MFA = twoFactorEnabled });
+            }
+            else
+            {
                 var userRoles = await _userManager.GetRolesAsync(user);
-               
-
-            if (userRoles == null || !userRoles.Any())
+                if (userRoles == null || !userRoles.Any())
                     return ServiceResponse<UserSession>.FailureResponse("User does not belong to any role.", ErrorCode.UnauthorizedAccess);
-            var role = string.Join(", ", userRoles);
-            var token = _tokenFactory.Generate(user.Id, user.Email ?? " ", role);
+                var role = string.Join(", ", userRoles);
+                var token = _tokenFactory.Generate(user.Id, user.Email ?? " ", role);
                 return ServiceResponse<UserSession>.SuccessResponse(token);
+            }
         }
         catch (Exception ex)
         {
@@ -144,6 +157,39 @@ public class AuthenticationService : IAuthenticationService
         catch (Exception ex)
         {
             return ServiceResponse<UserSession>.FailureResponse("Google authentication failed.", ErrorCode.Error);
+        }
+    }
+    public async Task<ServiceResponse<string>> SendTwoFactorAuthenticationCode(string? fullName, string email, CancellationToken ct)
+    {
+        try
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                return ServiceResponse<string>.FailureResponse("User not found.", ErrorCode.NotFound);
+            }
+            //var invitee = (await _authenticationRepository.GetProfileByEmail(email, ct)).FirstOrDefault();
+            //if (invitee == null)
+            //{
+            //    return ServiceResponse<string>.FailureResponse("Invitee not found.", ErrorCode.NotFound);
+            //}
+            var code = await _userManager.GenerateTwoFactorTokenAsync(user, "Email");
+
+            var templateFilePath = _configuration["EmailConfiguration:Templates:RegistrationInvitation:FilePath"]!;
+            var htmlTemplate = await File.ReadAllTextAsync(templateFilePath);
+
+            var emailContent = htmlTemplate.Replace("{{VerificationCode}}", code).Replace("{{Name}}", fullName ?? "User");
+
+            var subject = $"{fullName ?? "User"}, {_configuration["EmailConfiguration:Templates:RegistrationInvitation:Subject"]}".Trim();
+            var message = new MessageResponse(new[] { email }, subject, emailContent);
+
+            _emailService.SendEmail(message);
+
+            return ServiceResponse<string>.SuccessResponse("Verification code sent successfully.");
+        }
+        catch (Exception ex)
+        {
+            return ServiceResponse<string>.FailureResponse("Failed to send verification code.", ErrorCode.Error);
         }
     }
 }

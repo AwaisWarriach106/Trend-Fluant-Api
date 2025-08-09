@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Validation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .content h2 {
+            color: #128195;
+            text-align: center;
+        }
+
+        .content h4 {
+            color: #128195;
+        }
+
+        .content h3 {
+            color: #128195;
+        }
+
+        .content p {
+            margin: 15px 0;
+        }
+
+        .code-box {
+            text-align: center;
+            margin: 20px 0;
+            color: #128195;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Trend Flaunt</h2>
+            <h4>Hi {{Name}}, </h4>
+            <p>Your Verification code is:</p>
+            <div class="code-box"><strong>{{VerificationCode}}</strong></div>
+            <p>The Verification code will be valid for <strong>15 minutes.</strong></p>
+            <div>
+                <p>Best regards,</p>
+                <p>The Trend Flaunt Team</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

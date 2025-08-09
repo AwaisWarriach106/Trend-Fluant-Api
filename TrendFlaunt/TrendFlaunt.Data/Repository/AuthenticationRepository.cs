@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using System.Data;
 using TrendFlaunt.Data.Interfaces;
+using TrendFlaunt.Data.Models.Dto;
 using TrendFlaunt.Data.Models.RequestModel;
 using TrendFlaunt.Data.Queries;
 
@@ -30,5 +31,17 @@ public class AuthenticationRepository : IAuthenticationRepository
         var result = await _dbClient.QueryAsync<Guid>(command);
         return result.FirstOrDefault();
 
+    }
+    public async Task<List<UserProfileDto>> GetProfileByEmail(string email, CancellationToken ct)
+    {
+        var command = new CommandDefinition(
+            AuthenticationQueries.GetProfileByEmail,
+            new { Email = email },
+            commandType: CommandType.Text,
+            cancellationToken: ct
+        );
+
+        var result = await _dbClient.QueryAsync<UserProfileDto>(command);
+        return result.ToList();
     }
 }
